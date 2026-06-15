@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+}
+
+button {
+    margin: 10px;
+}
+
+#resultado {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 5px;
+    justify-items: center;
+}
+
+img {
+    max-width: 300px;
+    height: auto;
+}
